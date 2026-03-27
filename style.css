@@ -139,7 +139,7 @@ img {
 
 .hero-section {
     /* 假设导航栏高度为 60px */
-  margin-top: -78px; 
+  /* margin-top: -78px;  */
   
   /* 重要：为了防止内容被导航栏完全挡住看不清，
      通常需要给头图内部内容增加对应的 padding-top */
