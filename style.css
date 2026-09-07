@@ -1051,16 +1051,27 @@ img {
   border-radius: 32px;
 }
 
-.address-region {
-  margin: 16px 0 0;
+.campus-copy h2 {
+  margin: 0;
+}
+
+.campus-addresses {
+  display: grid;
+  gap: 24px;
+  margin: 24px 0 0;
+}
+
+.campus-addresses dt {
   font-size: 1.1rem;
+  font-weight: 600;
   color: #f3f8ff;
 }
 
-.address-detail {
-  margin: 12px 0 0;
+.campus-addresses dd {
+  margin: 8px 0 0;
   color: var(--muted);
   line-height: 1.8;
+  overflow-wrap: anywhere;
 }
 
 .map-card {
